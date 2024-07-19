@@ -37,6 +37,15 @@ This project was forked from [rbenv-win][3] and modified for [pyenv][1]. It is n
 
 [pyenv][1] is a simple python version management tool. It lets you easily switch between multiple versions of Python. It's simple, unobtrusive, and follows the UNIX tradition of single-purpose tools that do one thing well.
 
+## Add System Environments
+
+	PYENV_HOME		C:\Users\Admin\Programs\Python Environments
+
+## Add Path
+
+	%PYENV_HOME%\bin
+	%PYENV_HOME%\shims
+
 ## Quick start
 
 1. Install pyenv-win in PowerShell.

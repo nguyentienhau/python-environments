@@ -7,8 +7,8 @@ if "%1" == "--help" goto :help_menu
 set T=%TIME::=%
 set TMP_FILE=pyenv_requirements_%T: =%.tmp
 
-if not exist "%PYENV%versions\%1\" echo Python %1 does not exist & exit /b
-if not exist "%PYENV%versions\%2\" echo Python %2 does not exist & exit /b
+if not exist "%PYENV_HOME%versions\%1\" echo Python %1 does not exist & exit /b
+if not exist "%PYENV_HOME%versions\%2\" echo Python %2 does not exist & exit /b
 
 setlocal
 set PIP_REQUIRE_VIRTUALENV=0

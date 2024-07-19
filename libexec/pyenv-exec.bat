@@ -11,7 +11,7 @@ echo For example, if the currently selected Python version is 3.5.3:
 echo   pyenv exec pip install -r requirements.txt
 echo. 
 echo is equivalent to:
-echo   PATH="$PYENV_ROOT/versions/3.5.3/bin:$PATH" pip install -r requirements.txt
+echo   PATH="$PYENV_HOME/versions/3.5.3/bin:$PATH" pip install -r requirements.txt
 echo.
 EXIT /B
 )
